@@ -1,0 +1,25 @@
+{
+  "name": "reverse-engineering-skills",
+  "owner": {
+    "name": "chenyuxin",
+    "email": "chenyuxin@example.com"
+  },
+  "metadata": {
+    "description": "Reverse engineering skills for Claude Code - analyze symbols, structures, and more",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "reverse-engineering",
+      "source": "./plugins/reverse-engineering",
+      "description": "Reverse engineering toolkit with symbol analysis and structure extraction",
+      "version": "1.0.0",
+      "author": {
+        "name": "chenyuxin"
+      },
+      "keywords": ["reverse-engineering", "binary", "symbol", "struct", "analysis"],
+      "category": "security"
+    }
+  ]
+}

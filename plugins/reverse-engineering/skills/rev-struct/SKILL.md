@@ -194,11 +194,11 @@ struct suggested_name {
 ## Usage Examples
 
 ```
-/rev-struct 0x401000
+/reverse-engineering:rev-struct 0x401000
 ```
 
 Or specify the parameter to analyze:
 
 ```
-/rev-struct 0x401000 a1
+/reverse-engineering:rev-struct 0x401000 a1
 ```

@@ -205,11 +205,11 @@ Based on collected information:
 ## Usage Examples
 
 ```
-/rev-symbol 0x401000
+/reverse-engineering:rev-symbol 0x401000
 ```
 
 or
 
 ```
-/rev-symbol sub_401234
+/reverse-engineering:rev-symbol sub_401234
 ```

